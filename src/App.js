@@ -1,25 +1,57 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom";
+import Home from './components/pages/Home';
+import SocialBar from './components/layout/SocialBar';
+import Economy from './components/layout/Economy';
+import ConfigButton from './components/layout/ConfigButton';
+import Chat from './components/layout/Chat';
+import TurnHorizontal from './components/layout/TurnHorizontal';
+import Page from './components/Page';
+import { useEffect, useState } from 'react';
 
-function App() {
+// Videos
+import BackgroundVideo from './components/layout/BackgroundVideo';
+import defaultVideo from './videos/Contract Glitches.webm';
+import homeVideo from './videos/EP9A2_902_Homescreen.mp4';
+
+
+export default function App() {
+
+  const [backgroundVideo, setBackgroundVideo] = useState(homeVideo);
+  
+  useEffect(() => {
+    const handleContextMenu = event => event.preventDefault();
+    document.addEventListener('contextmenu', handleContextMenu);
+    
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+    };
+  }, []);
+
+
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Economy />
+      <ConfigButton />
+      <SocialBar />
+
+      <Page>
+        <BackgroundVideo src={backgroundVideo} />
+        <Routes>
+          <Route exact path="/" element={<Home /> } />
+        </Routes>
+      </Page>
+      
+      <Chat />
+      
+    </Router>
+    <TurnHorizontal />
+    <span style={{position: 'fixed', width:'100%', color: 'red', bottom: 0, textAlign:'center'}}>
+      {'Not responsive at the moment, only support for 780p or higher.'}
+    </span>
+    </>
   );
 }
-
-export default App;

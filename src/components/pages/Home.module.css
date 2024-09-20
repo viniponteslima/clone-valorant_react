@@ -1,0 +1,60 @@
+.home {
+  color: white;
+  display: grid;
+  grid-template-rows: min-content auto ;
+}
+
+.season {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.seasonName {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.seasonName h3 {
+  position: absolute;
+  top: -36px;
+  font-family: 'Beni';
+  width: max-content;
+  font-size: 56px;
+  color: #ffffff80;
+}
+
+.seasonName h4 {
+  position: absolute;
+  bottom: -28px;
+  font-size: 12px;
+  width: max-content;
+  font-weight: bold;
+}
+
+.logoContainer {
+  width: 55px;
+  height: 55px;
+  border: 3px solid white;
+  opacity: .5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer svg {
+  width: 50%;
+  height: 50%;
+}
+
+.season {
+  padding: 25px 20px;
+}
+
+.homeScreen {
+  display: flex;
+  align-items: center;
+  margin: 0 55px 120px 0;
+}

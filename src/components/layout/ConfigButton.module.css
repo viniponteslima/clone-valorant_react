@@ -1,0 +1,21 @@
+.configButton {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  width: 55px;
+  height: 51px;
+  transition: fill .1s linear;
+}
+
+.configButton svg {
+  fill: #BFBDBB;
+  width: 42px;
+  cursor: pointer;
+}
+
+.configButton svg:hover {
+  fill: #ffffff;
+}

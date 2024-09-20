@@ -1,0 +1,91 @@
+.economy {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  right: 55px;
+  height: 51px;
+  max-width: 430px;
+  width: calc(100vw - 55px);
+  color: #ffffff;
+  font-family: "Monda", sans-serif;
+  font-size: 14px;
+  gap: 16px;
+  padding: 3px 20px;
+}
+
+.economy div {
+  height: 100%;
+  width: min-content;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+}
+
+.economy svg {
+  width: 24px;
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.opacity0to50 {
+  fill-opacity: 0;
+  transition: all .1s linear;
+}
+
+div:hover > svg > .opacity0to50 {
+  fill-opacity: .5;
+}
+
+.opacity50to100 {
+  fill-opacity: .5;
+  transition: all .1s linear;
+}
+
+div:hover > svg > .opacity50to100 {
+  fill-opacity: 1;
+}
+
+
+.missions {
+  display: flex;
+  gap: 8px;
+}
+
+.missions div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nightMarket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nightMarket:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.nightMarket svg {
+  width: 40px;
+}
+
+.coins {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 8px;
+}
+
+.coins > div {
+  align-items: center;
+  height: min-content;
+}
+
+.coins svg {
+  width: 26px;
+}

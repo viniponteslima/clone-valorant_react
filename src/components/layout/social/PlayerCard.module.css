@@ -1,0 +1,56 @@
+.playerCard {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 4px 5px;
+  background-color: rgb(38, 43, 50);
+  width: 100%;
+  height: 53px;
+  display: flex;
+  align-items: center;
+}
+
+div:hover > .playerCard {
+  background-color: rgba(38, 43, 50, .5);
+}
+
+.playerCard .image {
+  position: relative;
+  width: 45px;
+  height: 45px;
+}
+
+.playerCard .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.playerCard .image span {
+  position: absolute;
+  right: -4px;
+  bottom: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid white;
+  background-color: #ccc;
+  z-index: 100;
+} 
+
+.playerCard .playerInfo {
+  padding: 0 8px;
+}
+
+.playerCard .playerInfo h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+}
+
+.playerCard:nth-child(1) .playerInfo h2 {
+  color: #D9DDA7;
+}
+
+.playerCard .playerInfo span {
+  font-size: 10px;
+  text-shadow: .75px .75px black ;
+}
