@@ -20,6 +20,7 @@
 
 .itemMenu:hover h2 {
   padding-left: 12px;
+  transition: padding .1s linear;
 }
 
 .a {
