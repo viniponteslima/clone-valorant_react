@@ -6,7 +6,7 @@ export default function Menu() {
   const itensMenu = [
     {
       title: 'Jogar',
-      path: '/jogar',
+      path: '/',
       highlight: true
     },
     {
