@@ -50,7 +50,7 @@ export default function App() {
     </Router>
     <TurnHorizontal />
     <span style={{position: 'fixed', width:'100%', color: 'red', bottom: 0, textAlign:'center'}}>
-      {'Not responsive at the moment, only support for 780p or higher.'}
+      {'Sem responsividade até o momento. Somente suporte para 780p ou acima.'}
     </span>
     </>
   );
