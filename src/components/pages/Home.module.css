@@ -7,7 +7,7 @@
 .season {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 0.3125rem;
 }
 
 .seasonName {
@@ -19,25 +19,25 @@
 
 .seasonName h3 {
   position: absolute;
-  top: -36px;
+  top: -2.25rem;
   font-family: 'Beni';
   width: max-content;
-  font-size: 56px;
+  font-size: 3.5rem;
   color: #ffffff80;
 }
 
 .seasonName h4 {
   position: absolute;
-  bottom: -28px;
-  font-size: 12px;
+  bottom: -1.75rem;
+  font-size: 0.75rem;
   width: max-content;
   font-weight: bold;
 }
 
 .logoContainer {
-  width: 55px;
-  height: 55px;
-  border: 3px solid white;
+  width: 3.4375rem;
+  height: 3.4375rem;
+  border: 0.1875rem solid white;
   opacity: .5;
   display: flex;
   justify-content: center;
@@ -50,11 +50,11 @@
 }
 
 .season {
-  padding: 25px 20px;
+  padding: 1.5625rem 1.25rem;
 }
 
 .homeScreen {
   display: flex;
   align-items: center;
-  margin: 0 55px 120px 0;
+  margin: 0 3.4375rem 7.5rem 0;
 }

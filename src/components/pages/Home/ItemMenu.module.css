@@ -1,8 +1,8 @@
 .itemMenu {
-  font-size: 56px;
+  font-size: 3.5rem;
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 0.875rem;
   width: max-content;
   text-transform: uppercase;
   font-weight: bold;
@@ -19,20 +19,20 @@
 }
 
 .itemMenu:hover h2 {
-  padding-left: 12px;
+  padding-left: 0.75rem;
   transition: padding .1s linear;
 }
 
 .a {
-  width: 8px;
-  height: 8px;
+  width: 0.5rem;
+  height: 0.5rem;
   background-color: white;
   transform: rotate(45deg);
-  margin: 4px;
+  margin: 0.25rem;
   transition: transform .1s linear;
 }
 
 .highlight {
-  font-size: 112px;
+  font-size: 7rem;
   color: #FE4554;
 }

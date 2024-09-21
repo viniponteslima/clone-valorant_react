@@ -4,27 +4,27 @@
   display: flex;
   justify-content: right;
   align-items: center;
-  right: 55px;
-  height: 51px;
-  max-width: 430px;
-  width: calc(100vw - 55px);
+  right: 3.4375rem;
+  height: 3.1875rem;
+  max-width: 26.875rem;
+  width: calc(100vw - 3.4375rem);
   color: #ffffff;
   font-family: "Monda", sans-serif;
-  font-size: 14px;
-  gap: 16px;
-  padding: 3px 20px;
+  font-size: 0.875rem;
+  gap: 1rem;
+  padding: 0.1875rem 1.25rem;
 }
 
 .economy div {
   height: 100%;
   width: min-content;
-  border-radius: 2px;
+  border-radius: 0.125rem;
   cursor: pointer;
   display: flex;
 }
 
 .economy svg {
-  width: 24px;
+  width: 1.5rem;
   fill: #ffffff;
   cursor: pointer;
 }
@@ -50,7 +50,7 @@ div:hover > svg > .opacity50to100 {
 
 .missions {
   display: flex;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .missions div {
@@ -71,14 +71,14 @@ div:hover > svg > .opacity50to100 {
 }
 
 .nightMarket svg {
-  width: 40px;
+  width: 2.5rem;
 }
 
 .coins {
   display: flex;
   align-items: center;
   justify-content: right;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .coins > div {
@@ -87,5 +87,5 @@ div:hover > svg > .opacity50to100 {
 }
 
 .coins svg {
-  width: 26px;
+  width: 1.625rem;
 }

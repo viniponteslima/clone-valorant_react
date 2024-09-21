@@ -1,17 +1,17 @@
 .chat {
   position: fixed;
-  bottom: 3px;
-  left: 3px;
-  right: 3px;
+  bottom: 0.1875rem;
+  left: 0.1875rem;
+  right: 0.1875rem;
   display: grid;
   grid-template-columns: auto min-content;
   align-items: center;
-  padding-left: 12px;
+  padding-left: 0.75rem;
   background-color: rgba(0,0,0,.5);
-  max-width: 445px;
-  width: calc(100vw - 60px);
-  height: 32px;
-  font-size: 15px;
+  max-width: 27.8125rem;
+  width: calc(100vw - 3.75rem);
+  height: 2rem;
+  font-size: 0.9375rem;
 }
 
 .chat label[for=chat] {
@@ -22,7 +22,7 @@
 
 .chat label[for=chat] span {
   color: #9BC6DA;
-  margin-right: 2px;
+  margin-right: 0.125rem;
 }
 
 .chat input {

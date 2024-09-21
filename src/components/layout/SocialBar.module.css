@@ -2,12 +2,12 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 51px;
-  bottom: 0px;
-  right: calc(55px - 257px);
+  top: 3.1875rem;
+  bottom: 0rem;
+  right: calc(3.4375rem - 16.0625rem);
   background-color: #171E24;
-  border-top: 1px solid #A5A1AD;
-  width: 257px;
+  border-top: 0.0625rem solid #A5A1AD;
+  width: 16.0625rem;
   transition: right .1s linear;
   z-index: 99;
   cursor: pointer;
@@ -16,7 +16,7 @@
 }
 
 .socialBar::-webkit-scrollbar {
-  width: 4px;
+  width: 0.25rem;
 }
 
 .socialBar::-webkit-scrollbar-track {
@@ -25,8 +25,8 @@
 
 .socialBar::-webkit-scrollbar-thumb {
   background-color: #888888;
-  border-radius: -1px;
-  border: 3px none #ff0000;
+  border-radius: -0.0625rem;
+  border: 0.1875rem none #ff0000;
 }
 
 .socialBar:hover {
