@@ -1,5 +1,5 @@
 .itemMenu {
-  font-size: 3.5rem;
+  font-size: 6vh;
   display: flex;
   align-items: center;
   gap: 0.875rem;
@@ -33,6 +33,6 @@
 }
 
 .highlight {
-  font-size: 7rem;
+  font-size: 12vh;
   color: #FE4554;
 }

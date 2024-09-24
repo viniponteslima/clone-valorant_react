@@ -28,9 +28,14 @@ code {
     monospace;
 }
 
+@media (height < 1560px) {
+  :root {
+    font-size: 20px;
+  }
+}
 @media (height < 1100px) {
   :root {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (height < 780px) {
