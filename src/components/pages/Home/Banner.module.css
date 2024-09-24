@@ -1,0 +1,35 @@
+.bannersContainer {
+  padding: 0 40px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 35vh 20vh 5vh 7.5vh;
+  gap: 5px;
+}
+
+.thisProject, .social {
+  width: 30vh;
+  background-color: #00000080;
+  border: 2px solid #828285;
+}
+
+.thisProject {
+  font-family: 'Monda';
+  font-size: 1.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 446px; */
+}
+
+.thisProject svg {
+  width: 50%;
+}
+
+.thisProject h3 {
+  text-align: center;
+}
+
+.social {
+  /* height: 241px; */
+}

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from './Home.module.css';
 import Valorant from '../../API/Valorant'
 import Menu from './Home/Menu';
+import Banner from './Home/Banner';
 
 
 export default function Home() {
@@ -56,9 +57,7 @@ export default function Home() {
 
         <Menu />
 
-        <div className='banners'>
-
-        </div>
+        <Banner />
         
       </div>
 
