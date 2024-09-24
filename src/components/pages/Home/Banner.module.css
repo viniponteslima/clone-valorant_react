@@ -13,13 +13,32 @@
 }
 
 .thisProject {
+  position: relative;
   font-family: 'Monda';
   font-size: 1.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 446px; */
+  transition: all .1s linear;
+}
+
+.thisProject::before {
+  position: absolute;
+  content: "";
+  inset: 0;
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  background: linear-gradient(0deg, rgba(0,255,179,0.25) 0%, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 100%);
+  opacity: 0;
+}
+
+.thisProject:hover::before {
+  opacity: 1;
+}
+
+.thisProject:hover {
+  border-color: #90FFE2;
 }
 
 .thisProject svg {
