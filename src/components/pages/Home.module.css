@@ -20,7 +20,7 @@
 .seasonName h3 {
   position: absolute;
   top: -3.2vh;
-  font-family: 'Beni';
+  font-family: 'Beni', sans-serif;
   width: max-content;
   font-size: 5vh;
   color: #ffffff40;

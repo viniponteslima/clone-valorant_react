@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   gap: 0.625rem;
   top: 0;
   left: 0;
